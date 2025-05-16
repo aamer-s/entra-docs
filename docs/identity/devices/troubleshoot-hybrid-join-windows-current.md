@@ -148,6 +148,8 @@ Possible reasons for failure:
    - The device should be able to access `https://login.microsoftonline.com`, in the system context, to do realm discovery for the verified domain and determine the domain type (managed or federated).
    - If the on-premises environment requires an outbound proxy, the IT admin must ensure that the system context on the device can discover and silently authenticate to the outbound proxy.
 
+For testing URL connectivity, Test-DeviceRegConnectivity PowerShell script can be used. More details about script and usage can be found here: https://learn.microsoft.com/en-us/samples/azure-samples/testdeviceregconnectivity/testdeviceregconnectivity/
+
 **Common error codes:**
 
 | Error code | Reason | Resolution |
